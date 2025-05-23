@@ -1,4 +1,4 @@
-/*Global Types*/
+
 * {
   box-sizing: border-box;
 }
@@ -127,6 +127,7 @@ table#multiplicationTable {
 .container-wrapper {
   display: flex;
   justify-content: center;
+  margin-top: 4rem;
 }
 
 .container1,
@@ -164,7 +165,7 @@ table#multiplicationTable {
 }
 
 .container4{
-  width: 44.8%;
+  width: 50%;
 }
 
 .container4 h2 i{
@@ -224,6 +225,12 @@ select {
   background-color: rgba(255, 255, 255, 0.97);
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#mathConstraints{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .input-group__input:disabled,
